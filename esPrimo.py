@@ -1,20 +1,17 @@
 def esPrimo(numero):
-    if numero == 0:
-        print('El numero ingresado es 0')
-    elif numero == 1:
-        print('El numero ingresado es 1')
-    elif numero == 2:
-        print('El numero ingresado es Primo')
-    elif numero > 1:
-        for i in range(2,numero):
+    if numero < 2:
+        print(f"El número ingresado es {numero} y NO es primo.")
+    else:
+        es_primo = True
+        for i in range(2, int(numero**0.5) + 1):
             if numero % i == 0:
-                print('El numero ingresado NO es Primo')
-                print(f'El numero es divisible por {i}')
+                es_primo = False
+                print(f"El número ingresado NO es primo. Es divisible por {i}.")
                 break
-            else: print('Es PRIMO')
-            break
-            
-numero = int(input('Ingresar un numero(mayor a 1): '))
+        if es_primo:
+            print("El número ingresado ES primo.")
+
+numero = int(input("Ingresar un número mayor o igual a 0: "))
 esPrimo(numero)
 
-input('Press any key to exit')
+input("Presione Enter para salir...")
