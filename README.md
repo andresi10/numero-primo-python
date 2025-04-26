@@ -1,5 +1,4 @@
-# numero-primo-python
-# Detector de Números Primos
+# numero-primo-python // Detector de Números Primos
 
 Este programa permite ingresar un número entero y determina si es primo o no.
 
