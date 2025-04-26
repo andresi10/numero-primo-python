@@ -1,0 +1,18 @@
+✈️ Mini Desafío 1.2 – “Calculadora de Vuelo”
+
+🎯 Objetivo:
+Practicar lógica de programación: condicionales, operadores, funciones y entrada de usuario.
+
+🧠 El programa debe:
+Pedirle al usuario una distancia en kilómetros.
+
+Calcular la duración estimada del vuelo, considerando:
+- Velocidad del avión: 800 km/h
+- Máximo de vuelo continuo: 4 horas
+- Cada escala agrega 1 hora adicional
+
+Mostrar:
+
+- Tiempo de vuelo sin escalas
+- Cantidad de escalas necesarias
+- Tiempo total incluyendo escalas
